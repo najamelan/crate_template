@@ -1,0 +1,50 @@
+package:
+
+  # When releasing to crates.io:
+  #
+  # - Update CHANGELOG.md.
+  # - Update version numbers in Cargo.yml, Cargo.toml, install section of readme.
+  # - verify CI result
+  # - test dependent crates
+  # - cargo publish
+  # - merge dev branch into master
+  # - create git tag
+  #
+  version       : 0.1.0
+  name          : {{crate_name}}
+  authors       : [ Naja Melan <najamelan@autistici.org> ]
+  description   :
+  documentation : https://docs.rs/{{crate_name}}
+  repository    : https://github.com/najamelan/{{crate_name}}
+  readme        : README.md
+  keywords      : []
+  categories    : []
+  license       : Unlicense
+  edition       : "2018"
+
+  metadata:
+    docs:
+      rs:
+        features: [ external_doc ]
+
+
+features:
+
+  external_doc: []
+
+
+badges:
+
+  maintenance : { status     : actively-developed       }
+  travis-ci   : { repository : najamelan/{{crate_name}} }
+
+
+dependencies:
+
+  futures-preview : ^0.3.0-alpha
+
+
+dev-dependencies:
+
+  pretty_assertions   : ^0.6
+
