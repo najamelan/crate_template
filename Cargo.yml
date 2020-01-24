@@ -4,6 +4,7 @@ package:
   #
   # - Update CHANGELOG.md.
   # - Update version numbers in Cargo.yml, Cargo.toml, install section of readme.
+  #   Verify if any crate versions where updated which types we use in our public API, if so bump major.
   # - verify CI result
   # - test dependent crates
   # - cargo publish
@@ -41,8 +42,14 @@ badges:
 
 dependencies:
 
-  futures-preview : ^0.3.0-alpha
 
+  # Public dependencies (bump major if changing any version number here)
+  # Means we use types from these crates in our public API.
+  #
+  futures : ^0.3
+
+  # Private dependencies
+  #
 
 dev-dependencies:
 
