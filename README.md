@@ -35,7 +35,7 @@ dependencies:
    {{crate_name}}: ^0.1
 ```
 
-With raw Cargo.toml
+With Cargo.toml
 ```toml
 [dependencies]
 
