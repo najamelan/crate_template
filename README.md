@@ -76,18 +76,15 @@ API documentation can be found on [docs.rs](https://docs.rs/{{crate_name}}).
 
 ## Contributing
 
-This repository accepts contributions. Ideas, questions, feature requests and bug reports can be filed through Github issues.
+Please check out the [contribution guidelines](https://github.com/najamelan/{{crate_name}}/blob/master/CONTRIBUTING.md) when upgrading.
 
-Pull Requests are welcome on Github. By committing pull requests, you accept that your code might be modified and reformatted to fit the project coding style or to improve the implementation. Please discuss what you want to see modified before filing a pull request if you don't want to be doing work that might be rejected.
-
-Please file PR's against the `dev` branch, don't forget to update the changelog and the documentation.
 
 ### Testing
 
 
 ### Code of conduct
 
-Any of the behaviors described in [point 4 "Unacceptable Behavior" of the Citizens Code of Conduct](http://citizencodeofconduct.org/#unacceptable-behavior) are not welcome here and might get you banned. If anyone including maintainers and moderators of the project fail to respect these/your limits, you are entitled to call them out.
+Any of the behaviors described in [point 4 "Unacceptable Behavior" of the Citizens Code of Conduct](https://github.com/stumpsyn/policies/blob/master/citizen_code_of_conduct.md#4-unacceptable-behavior) are not welcome here and might get you banned. If anyone including maintainers and moderators of the project fail to respect these/your limits, you are entitled to call them out.
 
 ## License
 
