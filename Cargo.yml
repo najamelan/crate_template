@@ -28,6 +28,9 @@ package:
       rs:
         features: [ external_doc ]
 
+  exclude:
+    - tests
+
 
 features:
 
