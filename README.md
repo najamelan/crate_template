@@ -76,7 +76,7 @@ API documentation can be found on [docs.rs](https://docs.rs/{{crate_name}}).
 
 ## Contributing
 
-Please check out the [contribution guidelines](https://github.com/najamelan/{{crate_name}}/blob/master/CONTRIBUTING.md) when upgrading.
+Please check out the [contribution guidelines](https://github.com/najamelan/{{crate_name}}/blob/master/CONTRIBUTING.md).
 
 
 ### Testing
