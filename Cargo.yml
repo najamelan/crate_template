@@ -22,14 +22,12 @@ package:
   categories    : []
   license       : Unlicense
   edition       : "2018"
+  exclude       : [ benches, examples, tests ]
 
   metadata:
     docs:
       rs:
         features: [ external_doc ]
-
-  exclude:
-    - tests
 
 
 features:
