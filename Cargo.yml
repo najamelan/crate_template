@@ -2,9 +2,10 @@ package:
 
   # When releasing to crates.io:
   #
+  # - last check for all TODO, FIXME, expect, unwrap.
+  # - run clippy
   # - Update CHANGELOG.md.
   # - Update version numbers in Cargo.yml, Cargo.toml, install section of readme.
-  #   Verify if any crate versions where updated which types we use in our public API, if so bump major.
   # - verify CI result
   # - test dependent crates
   # - cargo publish
@@ -27,12 +28,12 @@ package:
   metadata:
     docs:
       rs:
-        features: [ external_doc ]
+        all-features: true
 
 
 features:
 
-  external_doc: []
+  docs: []
 
 
 badges:
@@ -43,11 +44,10 @@ badges:
 
 dependencies:
 
-
   # Public dependencies (bump major if changing any version number here)
   # Means we use types from these crates in our public API.
   #
-  futures : ^0.3
+  futures-core : ^0.3
 
   # Private dependencies
   #
