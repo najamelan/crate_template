@@ -29,17 +29,17 @@ package:
     docs:
       rs:
         all-features: true
-
-
-features:
-
-  docs: []
+        rustdocflags: [ --cfg, docs ]
 
 
 badges:
 
   maintenance : { status     : actively-developed       }
   travis-ci   : { repository : najamelan/{{crate_name}} }
+
+
+features:
+
 
 
 dependencies:

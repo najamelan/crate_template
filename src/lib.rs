@@ -1,9 +1,8 @@
 // See: https://github.com/rust-lang/rust/issues/44732#issuecomment-488766871
 //
-#![cfg_attr( feature = "docs", feature(doc_cfg, external_doc) )]
-#![cfg_attr( feature = "docs", doc(include = "../README.md")  )]
-//!
-
+#![cfg_attr( docs, feature(doc_cfg, external_doc) )]
+#![cfg_attr( docs, doc(include = "../README.md")  )]
+#![doc = ""] // empty doc line to handle missing doc warning when the feature is missing.
 
 #![ doc    ( html_root_url = "https://docs.rs/{{crate_name}}" ) ]
 #![ deny   ( missing_docs                                     ) ]
