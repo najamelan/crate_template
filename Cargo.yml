@@ -29,7 +29,6 @@ package:
     docs:
       rs:
         all-features: true
-        rustdocflags: [ --cfg, docs ]
 
 
 badges:
@@ -52,7 +51,12 @@ dependencies:
   # Private dependencies
   #
 
+
 dev-dependencies:
 
   pretty_assertions   : ^0.6
 
+
+build-dependencies:
+
+  rustc_version: ^0.2
