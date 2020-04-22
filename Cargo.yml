@@ -3,13 +3,14 @@ package:
   # When releasing to crates.io:
   #
   # - last check for all TODO, FIXME, expect, unwrap.
-  # - re-read and final polish of documentation
+  # - re-read and final polish of documentation, SPELL CHECK.
   # - run cargo udeps
   # - run cargo clippy
+  # - run cargo audit
   # - recheck log statements (informative, none left that were just for development, ...)
   # - Update CHANGELOG.md.
   # - Update version numbers in Cargo.yml, Cargo.toml, install section of readme.
-  # - verify CI result
+  # - verify CI result and code coverage
   # - run cargo test on dependent crates
   # - cargo publish
   # - merge dev branch into master
@@ -26,7 +27,7 @@ package:
   categories    : []
   license       : Unlicense
   edition       : "2018"
-  exclude       : [ benches, examples, tests ]
+  exclude       : [ benches ]
 
   metadata:
     docs:
