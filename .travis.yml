@@ -11,15 +11,15 @@ cache:
 # and remove wasm-pack binary to avoid the installer asking confirmation for overwriting it.
 #
 before_cache:
-  - rm -rfv /home/travis/.cargo/git
-  - rm -rfv /home/travis/.cargo/registry
-  - rm -rfv /home/travis/.cargo/bin/cargo-tarpaulin
-  - rm -rfv target/debug/incremental/{{{crate_name}},build_script_build}-*
-  - rm -rfv target/debug/.fingerprint/{{crate_name}}-*
-  - rm -rfv target/debug/build/{{crate_name}}-*
-  - rm -rfv target/debug/deps/lib{{crate_name}}-*
-  - rm -rfv target/debug/deps/{{crate_name}}-*
-  - rm -rfv target/debug/{{{crate_name}},lib{{crate_name}}}.d
+  - rm -rf /home/travis/.cargo/git
+  - rm -rf /home/travis/.cargo/registry
+  - rm -rf /home/travis/.cargo/bin/cargo-tarpaulin
+  - rm -rf target/debug/incremental/{{{crate_name}},build_script_build}-*
+  - rm -rf target/debug/.fingerprint/{{crate_name}}-*
+  - rm -rf target/debug/build/{{crate_name}}-*
+  - rm -rf target/debug/deps/lib{{crate_name}}-*
+  - rm -rf target/debug/deps/{{crate_name}}-*
+  - rm -rf target/debug/{{{crate_name}},lib{{crate_name}}}.d
   - cargo clean -p {{crate_name}}
 
 branches:

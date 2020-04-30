@@ -39,7 +39,7 @@ In Cargo.toml:
 ```toml
 [dependencies]
 
-    {{crate_name}} = "0.1"
+   {{crate_name}} = "0.1"
 ```
 
 ### Upgrade
