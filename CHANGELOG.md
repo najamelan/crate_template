@@ -1,6 +1,8 @@
-# {{crate_name}} - CHANGELOG
+# thespis_derive - CHANGELOG
 
-## 0.0.0 - 0000-00-00
+## 0.1.0-alpha - 2020-09-10
+
+	- Initial version, not for production.
 
 
 
