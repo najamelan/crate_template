@@ -1,6 +1,12 @@
 # {{crate_name}} - CHANGELOG
 
-## 0.1.0-alpha - 2020-09-10
+
+## [Unreleased]
+
+[Unreleased]: https://github.com/najamelan/{{crate_name}}/compare/0.1.0...dev
+
+
+## 0.1.0
 
 	- Initial version, not for production.
 

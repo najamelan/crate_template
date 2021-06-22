@@ -1,7 +1,7 @@
 # {{crate_name}}
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Build Status](https://api.travis-ci.org/najamelan/{{crate_name}}.svg?branch=master)](https://travis-ci.org/najamelan/{{crate_name}})
+[![Build Status](https://github.com/najamelan/{{crate_name}}/workflows/ci/badge.svg?branch=master)](https://github.com/najamelan/{{crate_name}}/actions)
 [![Docs](https://docs.rs/{{crate_name}}/badge.svg)](https://docs.rs/{{crate_name}})
 [![crates.io](https://img.shields.io/crates/v/{{crate_name}}.svg)](https://crates.io/crates/{{crate_name}})
 
@@ -56,7 +56,7 @@ There are no optional features.
 
 ### Security
 
-
+It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev) to verify the trustworthiness of each of your dependencies, including this one.
 
 
 ## Usage
