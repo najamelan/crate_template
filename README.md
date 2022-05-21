@@ -1,7 +1,7 @@
 # {{crate_name}}
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Build Status](https://github.com/najamelan/{{crate_name}}/workflows/ci/badge.svg?branch=master)](https://github.com/najamelan/{{crate_name}}/actions)
+[![Build Status](https://github.com/najamelan/{{crate_name}}/workflows/ci/badge.svg?branch=release)](https://github.com/najamelan/{{crate_name}}/actions)
 [![Docs](https://docs.rs/{{crate_name}}/badge.svg)](https://docs.rs/{{crate_name}})
 [![crates.io](https://img.shields.io/crates/v/{{crate_name}}.svg)](https://crates.io/crates/{{crate_name}})
 
@@ -44,7 +44,7 @@ In Cargo.toml:
 
 ### Upgrade
 
-Please check out the [changelog](https://github.com/najamelan/{{crate_name}}/blob/master/CHANGELOG.md) when upgrading.
+Please check out the [changelog](https://github.com/najamelan/{{crate_name}}/blob/release/CHANGELOG.md) when upgrading.
 
 
 ### Dependencies
@@ -76,7 +76,7 @@ API documentation can be found on [docs.rs](https://docs.rs/{{crate_name}}).
 
 ## Contributing
 
-Please check out the [contribution guidelines](https://github.com/najamelan/{{crate_name}}/blob/master/CONTRIBUTING.md).
+Please check out the [contribution guidelines](https://github.com/najamelan/{{crate_name}}/blob/release/CONTRIBUTING.md).
 
 
 ### Testing
