@@ -45,13 +45,6 @@ package:
         all-features: true
         targets     : []
 
-
-badges:
-
-  maintenance : { status     : actively-developed       }
-  travis-ci   : { repository : najamelan/{{crate_name}} }
-
-
 features:
 
 
