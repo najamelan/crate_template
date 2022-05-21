@@ -1,6 +1,5 @@
-#![ cfg_attr( nightly, feature( external_doc, doc_cfg    ) ) ]
-#![ cfg_attr( nightly, doc    ( include = "../README.md" ) ) ]
-#![ doc = "" ] // empty doc line to handle missing doc warning when the feature is missing.
+#![ cfg_attr( nightly, feature(doc_cfg) ) ]
+#![ doc = include_str!("../README.md") ]
 
 #![ doc    ( html_root_url = "https://docs.rs/{{crate_name}}" ) ]
 #![ forbid ( unsafe_code                                      ) ]
